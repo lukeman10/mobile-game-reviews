@@ -4,11 +4,13 @@
     "rating": 4.9,
     "review": "Great port of a classic game to mobile. Build, explore, craft, or just chill with your firends online.",
     "pros": "Building is awesome and the different game modes offer many diferent ways to play.",
-    "cons": "The controls are kinda hard on mobile but you cn connect a bluetooth gamepad to your phone."
+    "cons": "The controls are kinda hard on mobile but you can connect a bluetooth gamepad to your phone. Also there are only 2-3 bosses."
   },
   {
     "game": "Terraria",
     "rating": 4.99,
-    "review": "Another amazing game. Very similar to minecraft but is 2d instead of 3d. There is also way more content. Controls kinda suck."
+    "review": "Another amazing game. Very similar to minecraft but is 2d instead of 3d.",
+    "pros": "This game is literally peak. There is so mush to do and so many bosses you never get bored.",
+    "cons": "The controls are completely horrible. Its even harder Minecraft on mobile. "
   }
 ]
