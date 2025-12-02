@@ -2,7 +2,9 @@
   {
     "game": "Minecraft",
     "rating": 4.9,
-    "review": "Great port of a classic game to mobile. Build, explore, craft, or just chill with your firends online. Only con is the control is kinda hard on mobile, but that can be fixed with a gamepad."
+    "review": "Great port of a classic game to mobile. Build, explore, craft, or just chill with your firends online.",
+    "pros": "Building is awesome and the different game modes offer many diferent ways to play.",
+    "cons": "The controls are kinda hard on mobile but you cn connect a bluetooth gamepad to your phone."
   },
   {
     "game": "Terraria",
