@@ -7,11 +7,25 @@
     "cons": "The controls are kinda hard on mobile but you can connect a bluetooth gamepad to your phone. Also there are only 2-3 bosses."
   },
   {
+    "game": "Dadish",
+    "rating": 5,
+    "review": "This is an amazing game by an indie game dev. It is truly a great platformer about a radish who is a dad(Dadish) who goes looking for his kids because they ran off. The levels are challenging but not too hard. There is always some comedic dialogue at the end of each level. The bosses are also really fun. Go download it now!!!",
+    "pros": "One of the best games I have ever played. The dialogue is great and the enemies and level design is really interesting. ",
+    "cons": "The only con is that there are ads."
+  },
+  {
     "game": "Terraria",
     "rating": 4.99,
     "review": "Another amazing game. Very similar to minecraft but is 2d instead of 3d.",
     "pros": "This game is literally peak. There is so mush to do and so many bosses you never get bored.",
     "cons": "The controls are completely horrible. Its even harder Minecraft on mobile. "
+  },
+  {
+    "game": "Dadish 2",
+    "rating": 4.5,
+    "review": "A wonderful sequal too Dadish. Same plot and similar bosses. I think some new enemies are introduced. I have yet to beat this one but its still really good.",
+    "pros": "Another great platfomer. Hilarious dialogue. ",
+    "cons": "There are ads amd some of the levels are kind of frusterating."
   },
   {
     "game": "Stumble Guys",
@@ -21,10 +35,10 @@
     "cons": "Still a very much knock off of Fall Guys. It's literally in the name. Onl play if you don't have a device that can play Fall Guys." 
   },
   {
-    "game": "Dadish",
+    "game": "Daily Dadish",
     "rating": 5,
-    "review": "This is an amazing game by an indie game dev. It is truly a great platformer about a radish who is a dad(Dadish) who goes looking for his kids because they ran off. The levels are challenging but not too hard. There is always some comedic dialogue at the end of each level. The bosses are also really fun. Go download it now!!!",
-    "pros": "One of the best games I have ever played. The dialogue is great and the enemies and level design is really interesting. ",
-    "cons": "The only con is that there are ads."
+    "review": "An amazing spin-off of the normal Dadish series. This game has one level per day and if you beat that level within a time limit you receive a star which can be used to purchase more costumes.",
+    "pros": "This gae is really fun and trying to get the star each day is really cool. ",
+    "cons": "As with every entry in the Dadish series there are ads. Some of the levels can be really enfuriating too, sometimes to the point of rage-quitting."
   }
 ]
