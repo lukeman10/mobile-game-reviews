@@ -40,5 +40,12 @@
     "review": "An amazing spin-off of the normal Dadish series. This game has one level per day and if you beat that level within a time limit you receive a star which can be used to purchase more costumes.",
     "pros": "This gae is really fun and trying to get the star each day is really cool. ",
     "cons": "As with every entry in the Dadish series there are ads. Some of the levels can be really enfuriating too, sometimes to the point of rage-quitting."
+  },
+  {
+    "game": "Pokemon Go",
+    "rating": 4,
+    "review": "This games is extremely popular. The gameplay is ok and it is an incentive to get up and walk around but it lacks the magic of mainstrea pokemon games.",
+    "pros": "Its fun walking around and trying to catch pokemon.",
+    "cons": "The whole gameplay loop gets a little bit boring at somepoint. There are some pretty heavy P2W themes. It is possible to get into something of a softlock where you have no pokeballs and all you can do is walk around and spin pokestops to try and get some more."
   }
 ]
