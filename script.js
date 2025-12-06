@@ -10,6 +10,7 @@ fetch("reviews.json")
     .then(response => response.json())
     .then(data => {
         allReviews = data;
+        displayRandomFeaturedReview();
         displayReviews(allReviews);
     })
     .catch(error => {
@@ -84,4 +85,24 @@ document.getElementById("searchInput").addEventListener("keydown", function (e) 
         }
     }
 });
+
+function displayRandomFeaturedReview() {
+    const container = document.getElementById("reviewContainer");
+    if (!container) return;
+
+    const randomIndex = Math.floor(Math.random() * allReviews.length);
+    const item = allReviews[randomIndex];
+
+    container.innerHTML = `
+        <div class="review">
+            <div class="game-title">${item.game}</div>
+            <div>⭐ Rating: ${item.rating}</div>
+            <p>${item.review}</p>
+            <div class="game-title">Pros</div>
+            <p>${item.pros}</p>
+            <div class="game-title">Cons</div>
+            <p>${item.cons}</p>
+        </div>
+    `;
+}
 
