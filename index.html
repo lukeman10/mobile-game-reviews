@@ -3,40 +3,98 @@
 <head>
     <meta name="google-site-verification" content="YwyQZdyNsNfeLIqS9NB9ch4A7QDhmFnhCHBpkMWTbBA" />
     <title>Game Reviews</title>
+
     <style>
         body { font-family: Arial; padding: 20px; }
-        .review{
+
+        .review {
             border: 1px solid #ccc;
             padding: 15px;
             margin-bottom: 10px;
             border-radius: 5px;
+            max-width: fit-content;
+            min-width: fit-content;
         }
+
         .game-title { font-weight: bold; font-size: 1.2em; }
+
         /* Secret Dark Mode */
-    .dark-mode {
-        background-color: #121212;
-        color: #e0e0e0;
-    }
+        .dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
 
-    .dark-mode .review {
-        background-color: #1e1e1e;
-        border-color: #555;
-    }
+        .dark-mode .review {
+            background-color: #1e1e1e;
+            border-color: #555;
+        }
 
-    .dark-mode input {
-        background-color: #222;
-        color: #eee;
-        border: 1px solid #666;
-    }
+        .dark-mode input {
+            background-color: #222;
+            color: #eee;
+            border: 1px solid #666;
+        }
 
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .link {
+            text-decoration: none;
+            color: #555;
+            background-color: #a9a9a9;
+            padding: 14px 25px;
+            border-radius: 15px;
+            display: block;
+            margin: 20px auto;
+            width: fit-content;
+            text-align: center;
+        }
+
+        .link:hover {
+            color: #393939;
+        }
+
+        .header {
+            max-width: 800px;
+            margin: auto;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .about {
+            max-width: 800px;
+            margin: auto;
+            font-size: 20px;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid #3d3d3d;
+            border-bottom: 1px solid #3d3d3d;
+        }
     </style>
 </head>
+
 <body>
-    <style></style>
-    <h1>This is a website dedicated to playing mobile games and finding the good ones so you don't have to waste your time.<h1>
-    <a href="reviews.html">Reviews</a>
-    <h2>Featured Review</h2>
-    <div id="reviewContainer"></div>   
+    <div class="container">
+        <h1>Mobile Game Reviews</h1>
+
+        <h2 class="header">
+            a website dedicated to playing mobile games and finding the good ones so you don't have to waste your time
+        </h2>
+
+        <div class="about">
+            Most mobile games are absolutely garbage. This is a widely accepted truth. When you download a game, chances are that it will be almost unplayable, ridden with ads and microtransactions. We decided to play those games for you and tell you which ones are actually worth your time (you can start clapping now).
+        </div>
+
+        <a href="reviews.html" class="link">Reviews</a>
+
+        <h2>Featured Review</h2>
+
+        <div id="reviewContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
