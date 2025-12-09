@@ -21,6 +21,8 @@ function displayReviews(reviews) {
     const container = document.getElementById("reviewsContainer");
     container.innerHTML = "";
 
+    updateReviewCount(reviews.length);
+
     reviews.forEach(item => {
         const reviewDiv = document.createElement("div");
         reviewDiv.className = "review";
@@ -106,3 +108,9 @@ function displayRandomFeaturedReview() {
     `;
 }
 
+
+
+function updateReviewCount(count) {
+    const counter = document.getElementById("reviewCount");
+    counter.textContent = `Showing ${count} review${count !== 1 ? "s" : ""}`;
+}
